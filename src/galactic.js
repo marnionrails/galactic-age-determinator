@@ -108,7 +108,7 @@ export default class Galactic {
     else if (this.age > 100) {
       this.age = this.age - 100;
       let yearsExceeded = this.onJupiter();
-      return 0;
+      return `You surpassed the Jupiter life expectancy by ${yearsExceeded} years`;
     }
     else {
       return "Error";
