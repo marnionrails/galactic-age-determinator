@@ -49,4 +49,9 @@ describe('Galactic', () => {
     expect(userAge.yearsLeftonMars()).toEqual("38");
   })
 
+  test('should return years left on Jupiter ', () => {
+    const userAge = new Galactic(28)
+    expect(userAge.yearsLeftonJupiter()).toEqual("6")
+  })
+
 });
