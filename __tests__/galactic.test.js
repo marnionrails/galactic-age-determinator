@@ -38,4 +38,9 @@ describe('Galactic', () => {
     const userAge = new Galactic(28)
     expect(userAge.yearsLeftonMercury()).toEqual("299");
   })
+
+  test('should return years left on Venus', () => {
+    const userAge = new Galactic(28)
+    expect(userAge.yearsLeftonVenus()).toEqual("117");
+  })
 });
