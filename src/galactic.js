@@ -92,7 +92,7 @@ export default class Galactic {
     else if (this.age > 100) {
       this.age = this.age - 100;
       let yearsExceeded = this.onMars();
-      return 0;
+      return `You surpassed the Mars life expectancy by ${yearsExceeded} years`;
     }
     else {
       return "Error";

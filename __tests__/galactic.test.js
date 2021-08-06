@@ -71,7 +71,7 @@ describe('Galactic', () => {
 
   test('should return years exceeded on Mars if user surpasses life expectancy', () => {
     const userAge = new Galactic(104)
-    expect(userAge.yearsLeftOnMars()).toEqual("You surpassed the Mars life expectancy by 2.1 years")
+    expect(userAge.yearsLeftOnMars()).toEqual("You surpassed the Mars life expectancy by 2 years")
   })
 
 
