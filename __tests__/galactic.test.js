@@ -8,4 +8,10 @@ describe('Galactic', () => {
     const result = userAge.dialogue;
     expect(result).toEqual("please enter a valid number for age");
   });
+
+  test('should return user age in Mercury years', () => {
+    const userAge = new Galactic(28);
+    userAge.onMercury()
+    expect().toEqual(116.3)
+  });
 });
