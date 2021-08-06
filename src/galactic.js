@@ -100,8 +100,18 @@ export default class Galactic {
   }
 
   yearsLeftonJupiter() {
-    let yearsLeft = this.yearsLeftonEarth();
-    this.age = yearsLeft;
-    return this.onJupiter();
+    if (this.age <= 100) {
+      let yearsLeft = this.yearsLeftonEarth();
+      this.age = yearsLeft;
+      return this.onJupiter();
+    }
+    else if (this.age > 100) {
+      this.age = this.age - 100;
+      let yearsExceeded = this.onJupiter();
+      return 0;
+    }
+    else {
+      return "Error";
+    }
   }
-} 
+}
