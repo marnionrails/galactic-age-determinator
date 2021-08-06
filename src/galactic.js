@@ -32,6 +32,7 @@ export default class Galactic {
   }
 
   onJupiter() {
-    return 0;
+    let jupiterAge = this.age/12;
+    return jupiterAge.toFixed(0);
   }
 } 
