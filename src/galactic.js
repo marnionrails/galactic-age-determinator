@@ -35,4 +35,8 @@ export default class Galactic {
     let jupiterAge = this.age/12;
     return jupiterAge.toFixed(0);
   }
+
+  yearsLeftonEarth() {
+    return 0;
+  }
 } 
