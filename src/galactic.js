@@ -24,4 +24,8 @@ export default class Galactic {
     let venusAge = earthDays/225;
     return venusAge.toFixed(0);
   }
+
+  onMars() {
+    return 0;
+  }
 } 
