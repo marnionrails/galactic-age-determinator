@@ -64,6 +64,7 @@ export default class Galactic {
     else {
       return "Error";
     }
+   
   }
 
   yearsLeftonVenus() {

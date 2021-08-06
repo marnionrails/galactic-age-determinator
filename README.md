@@ -60,5 +60,14 @@ Installation
 * To lint code, run: `$ npm run lint`
 * Run tests with Jest using command: `$ npm run test`
 
+## Specs <a id="specs"></a>
+* Listed in __tests__/galactic.test.js
+
 ## Bugs <a id="bugs"></a>
 * None at this time
+
+## License <a id="license"></a>
+* GPL
+
+## Contact <a id="contact"></a>
+Marni Sucher [<suchermarni@gmail.com>]

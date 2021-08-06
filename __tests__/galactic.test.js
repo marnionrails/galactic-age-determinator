@@ -10,7 +10,7 @@ describe('Galactic', () => {
   });
 
   test('should return user age in Mercury years', () => {
-    const userAge = new Galactic(28);
+    const userAge = new Galactic(28)
     expect(userAge.onMercury()).toEqual("116")
   });
 
@@ -29,7 +29,7 @@ describe('Galactic', () => {
     expect(userAge.onJupiter()).toEqual("2")
   })
 
-  test('should return years left on earth', () => {
+  test('should return years left on Earth', () => {
     const userAge = new Galactic(28)
     expect(userAge.yearsLeftonEarth()).toEqual(72);
   })
@@ -46,10 +46,10 @@ describe('Galactic', () => {
 
   test('should return years left on Mars', () => {
     const userAge = new Galactic(28)
-    expect(userAge.yearsLeftonMars()).toEqual("38");
+    expect(userAge.yearsLeftOnMars()).toEqual("38")
   })
 
-  test('should return years left on Jupiter ', () => {
+  test('should return years left on Jupiter', () => {
     const userAge = new Galactic(28)
     expect(userAge.yearsLeftonJupiter()).toEqual("6")
   })
@@ -78,6 +78,5 @@ describe('Galactic', () => {
     const userAge = new Galactic(104)
     expect(userAge.yearsLeftonJupiter()).toEqual("You surpassed the Jupiter life expectancy by 0 years")
   })
-
 
 });
