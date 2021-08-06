@@ -14,4 +14,8 @@ describe('Galactic', () => {
     expect(userAge.onMercury()).toEqual("116")
   });
 
+  test('should return user age in Venus years', () => {
+    const userAge = new Galactic(28)
+    expect(userAge.onVenus()).toEqual("45.5")
+  })
 });
