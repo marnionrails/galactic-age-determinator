@@ -54,7 +54,8 @@ export default class Galactic {
   }
 
   yearsLeftonMars() {
-  
-    return 0;
+    let yearsLeft = this.yearsLeftonEarth();
+    this.age = yearsLeft;
+    return this.onMars(); 
   }
 } 
