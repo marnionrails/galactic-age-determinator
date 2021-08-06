@@ -54,4 +54,9 @@ describe('Galactic', () => {
     expect(userAge.yearsLeftonJupiter()).toEqual("6")
   })
 
+  test('should return years exceeded on earth if user surpasses life expectancy', () => {
+    const userAge = new Galactic(104)
+    expect(userAge.yearsLeftonEarth()).toEqual("You surpassed the Earth life expectancy by 4 years")
+  })
+
 });
