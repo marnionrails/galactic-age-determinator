@@ -45,9 +45,6 @@ export default class Galactic {
       let yearsExceeded = this.age - 100;
       return `You surpassed the Earth life expectancy by ${yearsExceeded} years`;
     }
-    else {
-      return "Error";
-    }
   }
 
   yearsLeftonMercury() {
@@ -60,11 +57,7 @@ export default class Galactic {
       this.age = this.age - 100;
       let yearsExceeded = this.onMercury();
       return `You surpassed the Mercury life expectancy by ${yearsExceeded} years`;
-    }
-    else {
-      return "Error";
-    }
-   
+    }  
   }
 
   yearsLeftonVenus() {
@@ -78,10 +71,6 @@ export default class Galactic {
       let yearsExceeded = this.onVenus();
       return `You surpassed the Venus life expectancy by ${yearsExceeded} years`;
     }
-    else {
-      return "Error";
-    }
-
   }
 
   yearsLeftOnMars() {
@@ -95,9 +84,6 @@ export default class Galactic {
       let yearsExceeded = this.onMars();
       return `You surpassed the Mars life expectancy by ${yearsExceeded} years`;
     }
-    else {
-      return "Error";
-    }
   }
 
   yearsLeftonJupiter() {
@@ -110,9 +96,6 @@ export default class Galactic {
       this.age = this.age - 100;
       let yearsExceeded = this.onJupiter();
       return `You surpassed the Jupiter life expectancy by ${yearsExceeded} years`;
-    }
-    else {
-      return "Error";
     }
   }
 }
